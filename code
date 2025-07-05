@@ -1,7 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <body style="background-color:powderblue;">
-    <h1>This is a heading</h1>
-    <p>This is a paragraph.</p>
-  </body>
-</html>  
+
+<head>
+    <title>Kishan from GeeksforGeeks!</title>
+    <style>
+        /* CSS to style the text */
+        body {
+            background-color: #f0f0f0;
+            /* Background color */
+        }
+
+        .green-text {
+            color: green;
+            /* Text color */
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="green-text">Kishan from GeeksforGeeks!</h1>
+</body>
+
+</html> 
