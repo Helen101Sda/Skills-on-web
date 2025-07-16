@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  
+
 <head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
@@ -10,6 +10,87 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 </head>
+<style>
+  html { 
+      scroll-behavior: smooth; 
+  } 
+
+body {
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.column{
+    margin-top: 50px;
+    float:left;
+    padding: 10px;
+}
+
+.left{
+    text-align:left;
+    background-color: #df5656ad;
+    width:20%;
+}
+
+.right{    
+    text-align:center;
+    width:80%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column.side {
+    width: 100%;
+  }
+}
+
+.topnav{
+    position:fixed;
+    top:0;
+    width:100%;
+    overflow:hidden;
+    background-color:#e55757;
+}
+
+.navbar-brand{
+    overflow:hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #fcfafb;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #a92626db;
+  color: rgb(37, 2, 2);
+}
+
+.topnav a.active {
+  background-color: #8a1b1b;
+  color: white;
+}
+
+.footer {
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: 60a341;
+    color: white;
+    text-align: center;
+}
+
+</style>
 
 
 <body>
@@ -38,10 +119,10 @@
         </p>
     </div>
 
-    <footer>
+    <div class="footer">
         <p><b>Contact info</b></p>
         <p>Linkdin: hhttps//;beufb;dcjbd.com <br>Email: lennysomethin@gmail.com<br>blah blah blah</p>
-    </footer>
+    </div>
 
 </body>
 </html>
