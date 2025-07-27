@@ -8,9 +8,10 @@
 <link rel="stylesheet" href="code.css">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-
 </head>
+
 <style>
+  /* might remove this later, cutomization scroll bar? */
   html { 
       scroll-behavior: smooth; 
   } 
@@ -26,12 +27,16 @@ body {
     padding: 10px;
 }
 
+/* left column:profile,picture and personal profile description. need to make it span the full height of the page,
+include picture box and possibly change font colour after basics r done */
 .left{
     text-align:left;
     background-color: #df5656ad;
     width:20%;
+    height:100%;
 }
 
+/* text column to include education and others. */
 .right{    
     text-align:center;
     width:80%;
@@ -42,6 +47,7 @@ body {
     display: table;
     clear: both;
 }
+
 @media screen and (max-width: 600px) {
   .column.side {
     width: 100%;
@@ -55,9 +61,14 @@ body {
     overflow:hidden;
     background-color:#e55757;
 }
-
+/* name, no link. need to make text bigger and remove hover colour */
 .navbar-brand{
-    overflow:hidden;
+  overflow:hidden;
+  font-size: 17px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
 }
 
 .topnav a {
@@ -78,9 +89,8 @@ body {
   background-color: #8a1b1b;
   color:  white;
 }
-
+/* make footer smaller(height), stay at the bottom, put in actual text */
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -94,50 +104,68 @@ body {
 
 <body>
   
-  <div class="topnav">
-      <a class="navbar-brand mb-0 h1"><b>Helen Almeida</b></a>
-      <a class="active" href="#1"><i class="material-icons">&#xe7fd;</i>Profile</a>
-      <a href="#2"><i class="material-icons"> &#xe7ee;</i>Education</a>
+  <div class="topnav" class="active" >
+      <span class="navbar-brand mb-0 h1"><b>Helen Almeida</b></span>
+      <a href="#Profile"><i class="material-icons">&#xe7fd;</i>Profile</a>
+      <a href="#Education"><i class="material-icons"> &#xe7ee;</i>Education</a>
       <a href="#Employment"><i class="material-icons">&#xeb3f;</i>Employment</a>
-      <a href="#skills"><i class="material-icons"> 	&#xe869;</i>skills</a>
+      <a href="#skills"><i class="material-icons"> 	&#xe869;</i>Skills</a>
       <a href="#Contact info"><i class="material-icons"> 	&#xe0cd;</i>Contact info</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
   </div>
 
     <div class="column left">
+      <div  id="Profile">
         <h2>Profile</h2>
         <p>A very driven, detail-oriented,and creative psychology and computing graduate,
           that is willing to put in the work and effort required to learn new skills whilst also using skills
           harboured through previous education and experiences. Enjoys being part of a team and adding unique 
           value to the group and takes pride in perfecting any individual work. Gains much satisfaction from 
           solving issues and working with data.
+
+          A very driven, detail-oriented,and creative psychology and computing graduate,
+          that is willing to put in the work and effort required to learn new skills whilst also using skills
+          harboured through previous education and experiences. Enjoys being part of a team and adding unique 
+          value to the group and takes pride in perfecting any individual work. Gains much satisfaction from 
+          solving issues and working with data.
         </p>
+      </div>
     </div>
 
     <div class="column side">
+      <div id="Education">
         <h2>Education</h2>
         <p>Very driven and creative UCC graduate. Experience in many sectors and roles</p>
         <p>Enjoys and thrives in group work whilst also having enough leadership and initoative to work independently.</p>
         </p>
+      </div>
+
+      <div id="Employment">
         <h2>Employment</h2>
         <p>Very driven and creative UCC graduate. Experience in many sectors and roles</p>
         <p>Enjoys and thrives in group work whilst also having enough leadership and initoative to work independently.</p>
         </p>
+      </div>
+
+      <div id="Education">
         <h2>skills</h2>
         <p>Very driven and creative UCC graduate. Experience in many sectors and roles</p>
         <p>Enjoys and thrives in group work whilst also having enough leadership and initoative to work independently.</p>
         </p>
+      </div>
+
+      <div id="Education">
         <h2>Contact info</h2>
-                <p>Very driven and creative UCC graduate. Experience in many sectors and roles</p>
+        <p>Very driven and creative UCC graduate. Experience in many sectors and roles</p>
         <p>Enjoys and thrives in group work whilst also having enough leadership and initoative to work independently.</p>
         </p>
-
-
-    </div>
+      </div>
 
     <div class="footer">
+      <div id="Contact info">
         <p><b>Contact info</b></p>
-        <p>Linkdin: hhttps//;beufb;dcjbd.com <br>Email: lennysomethin@gmail.com<br>blah blah blah</p>
+        <p>Linkdin:hhttps//;beufb;dcjbd.com<br>Email:lennysomethin@gmail.com<br>blah blah blah</p>
+      </div>
     </div>
 
 </body>
