@@ -22,22 +22,24 @@ body {
 }
  
 .column{
-    margin-top: 50px;
+    display: table;
     float:left;
     padding: 10px;
+    
 }
 
 /* left column:profile,picture and personal profile description. need to make it span the full height of the page,
 include picture box and possibly change font colour after basics r done */
 .left{
+    display: table-cell;
     text-align:left;
     background-color: #df5656ad;
     width:20%;
-    height:auto;
 }
 
 /* text column to include education and others. */
 .right{    
+    display: table-cell;
     text-align:center;
     width:80%;
 }
@@ -53,7 +55,7 @@ include picture box and possibly change font colour after basics r done */
     width: 100%;
   }
 }
-
+/* position:sticly might be a good shout, and maybe do a style thing for H2 and make the titles sticky too */
 .topnav{
     position:fixed;
     top:0;
@@ -92,13 +94,16 @@ include picture box and possibly change font colour after basics r done */
 }
 /* make footer smaller(height), stay at the bottom, put in actual text */
 .footer {
+    position:fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width:100%;
+    padding:5px;
     background-color:#e55757;
     color: #ffffff;
     text-align: center;
 }
+
   
 </style>
 
@@ -135,7 +140,7 @@ include picture box and possibly change font colour after basics r done */
       </div>
     </div>
 
-    <div class="column side">
+    <div class="column right">
       <div id="Education">
         <h2>Education</h2>
         <p>Very driven and creative UCC graduate. Experience in many sectors and roles</p>
