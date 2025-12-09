@@ -58,14 +58,13 @@ include picture box and possibly change font colour after basics r done */
 /* position:sticly might be a good shout, and maybe do a style thing for H2 and make the titles sticky too */
 .topnav{
     position:fixed;
-    padding: 14px 16px;
     top:0;
     width:100%;
     overflow:hidden;
     background-color:#e55757;
 }
 /* place to left, change font colour n size n diff background colour */
-.navbar-brand{
+/* .navbar-brand{
   float: left;
   color: #fcfafb;
   background-color: #8a1b1b;
@@ -73,7 +72,7 @@ include picture box and possibly change font colour after basics r done */
   padding: 14px 16px;
   text-decoration: none;
   font-size: 18px;
-}
+} */
 
 .topnav a {
   float: left;
@@ -93,6 +92,7 @@ include picture box and possibly change font colour after basics r done */
   background-color: #8a1b1b;
   color:  white;
 }
+
 /* make footer smaller(height), stay at the bottom, put in actual text */
 .footer {
     position:fixed;
@@ -110,9 +110,9 @@ include picture box and possibly change font colour after basics r done */
 
 <body>
   
-  <div class="topnav" class="active" >
-      <span class="navbar-brand mb-0 h1"><b>Helen Almeida</b></span>
-      <a href="#Profile"><i class="material-icons">&#xe7fd;</i>Profile</a>
+  <div class="topnav">
+      <!-- <span class="navbar-brand mb-0 h1"><b>Helen Almeida</b></span> -->
+      <a class="active" href="#Profile"><i class="material-icons">&#xe7fd;</i>Profile</a>
       <a href="#Education"><i class="material-icons"> &#xe7ee;</i>Education</a>
       <a href="#Employment"><i class="material-icons">&#xeb3f;</i>Employment</a>
       <a href="#skills"><i class="material-icons"> 	&#xe869;</i>Skills</a>
