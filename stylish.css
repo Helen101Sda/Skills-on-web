@@ -4,7 +4,7 @@ body {
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #333;
+  background-color: #db5f5f;
   overflow: hidden;
 }
 /* Style the links inside the navigation bar */
@@ -23,7 +23,7 @@ body {
 }
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #7289cb;
   color: white;
 }
 
@@ -35,6 +35,7 @@ body {
 }
 .left {
   width: 30%;
+  color: coral;
 }
 .right {
   width: 70%;
