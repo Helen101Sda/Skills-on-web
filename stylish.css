@@ -1,10 +1,4 @@
-body {
-  background-color: powderblue;
-}
-
-h4 {font-style: italic;
-}
-pre{ font-family:"Times New Roman", Times, serif;}
+body {background-color: powderblue;}
 
 /* Add a black background color to the top navigation */
 .topnav {
