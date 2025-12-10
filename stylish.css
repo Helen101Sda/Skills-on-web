@@ -1,11 +1,11 @@
 body {
-    background-color: powderblue;
+    background-color: #efefef;
     font-family: serif;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #db5f5f;
+  background-color: #ff723f;
   overflow: hidden;
 }
 /* Style the links inside the navigation bar */
@@ -19,12 +19,12 @@ body {
 }
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #efefef;
   color: black;
 }
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #7289cb;
+  background-color: #fdce00;
   color: white;
 }
 
