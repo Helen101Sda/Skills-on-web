@@ -1,10 +1,10 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #fdf6b6;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #ff723f;
+  background-color: #ff723fc7;
   overflow: hidden;
 }
 /* Style the links inside the navigation bar */
@@ -34,11 +34,11 @@ body {
   padding: 10px;
 }
 .left {
-  width: 30%;
-  background-color: #fdce00;
+  width: 20%;
+  background-color: #fdcf00ba;
 }
 .right {
-  width: 70%;
+  width: 80%;
 }
 /* Clear floats after the columns */
 .row:after {
