@@ -2,9 +2,9 @@ body {
   background-color: powderblue;
 }
 
-h2 {font-style: italic;
+h4 {font-style: italic;
 }
-
+pre{ font-family:"Times New Roman", Times, serif;}
 
 /* Add a black background color to the top navigation */
 .topnav {
