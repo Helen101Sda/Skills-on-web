@@ -34,15 +34,36 @@ body {
   padding: 10px;
 }
 .left {
-  width: 20%;
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+  /* width: 30%; */
   background-color: #fdcf00ba;
 }
 .right {
-  width: 80%;
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+  /* width: 70%; */
 }
 /* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .column {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
 }
