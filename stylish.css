@@ -2,6 +2,10 @@ body {
   background-color: powderblue;
 }
 
+h2 {font-style: italic;
+}
+
+
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #db5f5f;
@@ -35,7 +39,7 @@ body {
 }
 .left {
   width: 30%;
-  color: coral;
+  background-color: coral;
 }
 .right {
   width: 70%;
