@@ -2,110 +2,12 @@
 <html lang="en">
 
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="code.css">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylish.css">
 </head>
-
-<style>
-  /* might remove this later, cutomization scroll bar? */
-  html { 
-      scroll-behavior: smooth; 
-  } 
-
-body {
-    margin:0;
-    font-family: Arial, Helvetica, sans-serif;
-}
- 
-.column{
-    display: table;
-    float:left;
-    padding: 10px;
-    
-}
-
-/* left column:profile,picture and personal profile description. need to make it span the full height of the page,
-include picture box and possibly change font colour after basics r done */
-.left{
-    display: table-cell;
-    text-align:left;
-    background-color: #df5656ad;
-    width:20%;
-}
-
-/* text column to include education and others. */
-.right{    
-    display: table-cell;
-    text-align:center;
-    width:80%;
-}
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-@media screen and (max-width: 600px) {
-  .column.side {
-    width: 100%;
-  }
-}
-/* position:sticly might be a good shout, and maybe do a style thing for H2 and make the titles sticky too */
-.topnav{
-    position:fixed;
-    top:0;
-    width:100%;
-    overflow:hidden;
-    background-color:#e55757;
-}
-/* place to left, change font colour n size n diff background colour */
-/* .navbar-brand{
-  float: left;
-  color: #fcfafb;
-  background-color: #8a1b1b;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 18px;
-} */
-
-.topnav a {
-  float: left;
-  color: #fcfafb;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover {
-  background-color: #a92626db;
-  color: rgb(37, 2, 2);
-}
-
-.topnav a.active {
-  background-color: #8a1b1b;
-  color:  white;
-}
-
-/* make footer smaller(height), stay at the bottom, put in actual text */
-.footer {
-    position:fixed;
-    left: 0;
-    bottom: 0;
-    width:100%;
-    padding:5px;
-    background-color:#e55757;
-    color: #ffffff;
-    text-align: center;
-}
-
-</style>
 
 
 <body>
@@ -122,6 +24,7 @@ include picture box and possibly change font colour after basics r done */
 
 
     <div class="column left">
+      
       <div id="Profile">
        <p><b>Profile</b></p>
         <p>
@@ -146,27 +49,18 @@ include picture box and possibly change font colour after basics r done */
         <p>Enjoys and thrives in group work whilst also having enough leadership and initoative to work independently.</p>
         </p>
       </div>
-
       <div id="Employment">
         <p><b>Employment</b></p>
         <p>Very driven and creative UCC graduate. Experience in many sectors and roles</p>
         <p>Enjoys and thrives in group work whilst also having enough leadership and initoative to work independently.</p>
         </p>
       </div>
-
       <div id="Skills">
         <p><b>Skills</b></p>
         <p>Very driven and creative UCC graduate. Experience in many sectors and roles</p>
         <p>Enjoys and thrives in group work whilst also having enough leadership and initoative to work independently.</p>
         </p>
       </div>
-
-    <!-- <div class="footer">
-      <div id="Contact info">
-        <p><b>Contact info</b></p>
-        <p>Linkdin:hhttps//;beufb;dcjbd.com<br>Email:lennysomethin@gmail.com<br>blah blah blah</p>
-      </div>
-    </div> -->
 
 </body>
 </html>
