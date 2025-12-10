@@ -34,15 +34,11 @@ body {
   padding: 10px;
 }
 .left {
-    -ms-flex: 30%; /* IE10 */
-    flex: 30%;
-  /* width: 30%; */
+  width: 30%;
   background-color: #fdcf00ba;
 }
 .right {
-    -ms-flex: 70%; /* IE10 */
-    flex: 70%;
-  /* width: 70%; */
+  width: 70%;
 }
 /* Clear floats after the columns */
 .row:after {
