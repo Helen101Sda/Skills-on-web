@@ -1,11 +1,7 @@
 body {
     background-color: #efefef;
-    font-family: serif;
 }
 
-pre{
-    font-family: serif;
-}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: #ff723f;
@@ -39,7 +35,7 @@ pre{
 }
 .left {
   width: 30%;
-  background-color: coral;
+  background-color: #fdce00;
 }
 .right {
   width: 70%;
