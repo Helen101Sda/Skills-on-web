@@ -56,6 +56,16 @@ color: white;
 background-color:black;
 }
 
+
+div.absolute {
+  overflow:scroll;
+  padding:10px;
+  position: absolute;
+  top:450px;
+  left:12px;
+  width:30%;
+  height:200px;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
