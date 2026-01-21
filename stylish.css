@@ -1,10 +1,11 @@
+ /* overall page, like layer 1 */
 body {
-    background-color: #fdf6b6;
+    background-color: #FFF79E;
 }
 
 /* Add a black background color to the top navigation */
 .topnav {
-  background-color: #ff723fc7;
+  background-color: #FCB756;
   overflow: hidden;
 }
 /* Style the links inside the navigation bar */
@@ -18,8 +19,8 @@ body {
 }
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #efefef;
-  color: black;
+  background-color: #fcab32; 
+  color: black; 
 }
 /* Add a color to the active/current link */
 .topnav a.active {
@@ -27,18 +28,19 @@ body {
   color: white;
 }
 
-
-
+ /* creating column on the left */
 .column {
   float: left;
   padding: 10px;
 }
 .left {
   width: 30%;
-  background-color: #fdcf00ba;
+  background-color: #FFE88A;
+  padding: 10px;
 }
 .right {
   width: 70%;
+  padding: 10px;
 }
 /* Clear floats after the columns */
 .row:after {
