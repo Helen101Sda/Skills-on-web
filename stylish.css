@@ -60,8 +60,8 @@ background-color:black;
 div.absolute {
   overflow:scroll;
   position: absolute;
-  top:450px;
-  left:12px;
+  top:550px;
+  left:50px;
   width:30%;
   height:200px;
 }
